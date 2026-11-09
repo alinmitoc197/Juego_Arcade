@@ -1,0 +1,25 @@
+.btn { padding: 13px 36px; background: linear-gradient(180deg, var(--accent), var(--accent2)); border: 0; border-radius: 999px; font: 700 20px var(--font-display); letter-spacing: .14em; color: #05060f; cursor: pointer; text-transform: uppercase; }
+.btn:hover, .btn.is-focus { filter: brightness(1.12); box-shadow: 0 0 0 3px #fff, 0 0 28px var(--accent); }
+.btn-ghost { padding: 11px 24px; background: rgba(255, 255, 255, .06); border: 1px solid var(--line); border-radius: 999px; color: #fff; font: 600 17px var(--font-ui); cursor: pointer; }
+.btn-ghost:hover, .btn-ghost.is-focus { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+.hint { color: var(--muted); font-size: 15px; letter-spacing: .03em; }
+.foot-btns { display: flex; gap: 12px; align-items: center; }
+
+.keycap { display: inline-grid; place-items: center; min-width: 30px; height: 30px; padding: 0 8px; background: rgba(255, 255, 255, .07); border: 1px solid var(--line); border-bottom-width: 3px; border-radius: 8px; font: 700 15px var(--font-ui); color: #fff; }
+.keycap.big { min-width: 54px; height: 54px; font-size: 22px; border-radius: 12px; }
+.keycap.arrow { color: var(--accent); border-color: rgba(255, 209, 102, .45); }
+.keycap.face { background: rgba(59, 130, 246, .22); border-color: var(--violet); }
+
+.overlay { position: absolute; inset: 0; background: rgba(3, 3, 14, .72); backdrop-filter: blur(4px); display: grid; place-items: center; z-index: 30; }
+.panel { background: var(--glass); border: 1px solid var(--accent); box-shadow: 0 0 40px rgba(255, 209, 102, .25); border-radius: 22px; padding: 34px 46px; text-align: center; max-width: 620px; }
+.panel h2 { font: 700 40px var(--font-display); letter-spacing: .1em; margin-bottom: 20px; color: var(--accent); text-transform: uppercase; }
+.panel p { color: #c4c8da; line-height: 1.5; margin-bottom: 22px; }
+.menu-list { display: flex; flex-direction: column; gap: 12px; min-width: 360px; }
+.menu-btn { width: 100%; }
+
+.topbar { position: absolute; left: 0; right: 0; top: 0; height: 64px; display: flex; align-items: center; padding: 0 28px; gap: 24px; z-index: 6; }
+.topbar-title { font: 700 17px var(--font-display); letter-spacing: .3em; flex: 1; text-align: center; color: #cfd8ff; }
+.topbar-mode { font: 700 15px var(--font-display); letter-spacing: .25em; color: var(--accent); text-transform: uppercase; min-width: 160px; text-align: right; }
+.page-title { position: absolute; left: 60px; top: 84px; font: 700 48px var(--font-display); letter-spacing: .08em; text-transform: uppercase; }
+.page-title.small { position: static; font-size: 40px; }
+.select-foot { position: absolute; left: 0; right: 0; bottom: 0; height: 78px; display: flex; align-items: center; justify-content: space-between; padding: 0 48px; background: linear-gradient(transparent, rgba(3, 3, 14, .8)); z-index: 6; }
